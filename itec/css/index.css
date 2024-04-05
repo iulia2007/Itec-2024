@@ -13,5 +13,31 @@
     left: 0;
     right: 0;
     position: fixed;
+    z-index: 1;
     
+}
+
+.nav img{
+    margin-left: 30px;
+    
+}
+
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.nav ul li{
+    padding: 12px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(74, 123, 125);
 }
