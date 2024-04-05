@@ -50,3 +50,17 @@ th{
 iframe{
     margin-right: 50px;
 }
+
+.nav{
+    background-color: white;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    
+}
