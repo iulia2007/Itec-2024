@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +9,16 @@
 <body>
     
     <div class="nav">
-        <img src="../assets/Stpt_Timișoara_logo.png" alt="">
+        <img src="../assets/Stpt_Timișoara_logo.png" alt="" max-width="100%">
         <ul>
             <li>
-                <a href="#home" class="a1">Acasa 🚌</a>
+                <a href="#home" class="a1">Acasă 🚌</a>
             </li>
            <li>
-               <a href="#bilete" class="a1"> Bilete si abonamente 🎫</a>
+               <a href="#bilete" class="a1"> Bilete și abonamente 🎫</a>
             </li> 
             <li>
-                <a href="#plata" class="a1">Metoda de plata 💳</a>
+                <a href="#plata" class="a1">Metoda de plată 💳</a>
             </li>
             <li><a href="#contact" class="a1"> Contact 📞</a>
             </li>
@@ -28,7 +29,7 @@
     
     <div class="bgimg" id="home">
     <img src="../assets/ratt-autobuz1.jpg" alt="" class="image">
-    <div class="centered"><h2>Descopera Timisoara</h2>
+    <div class="centered"><h2>Descoperă Timișoara</h2>
         <div class="harta"><a href="../html/harti.html"><button>Trasee</button></a></div>
     </div>
     
@@ -80,14 +81,14 @@
                     <td>4 Lei</td></tr>
                 <tr><td>Bilet vaporetto</td>
                 <td>1 Leu</td></tr>
-                <tr><td>Legitimatie de 1 zi</td>
+                <tr><td>Legitimație de 1 zi</td>
                 <td>15 Lei</td></tr>
                 <tr><th colspan="2">Abonamente</th></tr>
                 <tr><td>1 linie, 30 zile</td>
                 <td>100 Lei</td></tr>
                 <tr><td>1 linie expres, 30 zile</td>
                 <td>115 Lei</td></tr>
-                <tr><td class="bottom-left">general, 30 zile</td>
+                <tr><td class="bottom-left">General, 30 zile</td>
                 <td class="bottom-right">130 Lei</td></tr>
             </tbody></table>
         </div>
@@ -97,7 +98,7 @@
         <hr>
         <br>
         <br>
-<h1>Metode de plata</h1>
+<h1>Metode de plată</h1>
         <div class="plata">
             
            <div class="box">
@@ -136,11 +137,11 @@
             resurse.umane@stpt.ro<br>
             angajari@stpt.ro<br><br>
             <span><b>Telefoane:</b></span><br>
-            Relatii Publice: 0356 803 720<br>
+            Relații Publice: 0356 803 720<br>
             FAX STPT: 0356 003 901<br>
             Dispecerat:
             0356 803 716<br>
-            Achizitii publice: 0356 803 703<br>
+            Achiziții publice: 0356 803 703<br>
             FAX Achizitii: 0356 803 745</p>
         </div>
         </div>
@@ -158,7 +159,8 @@
         <input type="tel" id="Telefon">
         <input type="Email" id="Email"><br>
         <label for="mesaj" class="label3">Spune-ne părerea ta</label><br>
-        <textarea name="" id="mesaj" cols="30" rows="10"></textarea>
+        <textarea name="" id="mesaj" cols="30" rows="10"></textarea><br>
+        <input type="submit" class="submit">
         </form>
         </div>
     </div>
@@ -166,43 +168,6 @@
 <footer>
     © 2024 STPT. All rights reserved.
 </footer>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+
 
 </body></html>

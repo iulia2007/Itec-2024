@@ -291,3 +291,14 @@ footer {
     color: rgb(42, 42, 42);
     transition: 0.3s ease-in-out;
   }
+
+  
+.submit{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(113, 72, 149);
+    color: white;
+    font-weight: 700;
+    
+}
+
