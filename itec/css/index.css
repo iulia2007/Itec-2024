@@ -11,23 +11,26 @@ table, th, td{
     border: 2px solid rgb(113, 72, 149);
     border-spacing: 0;
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
 }
 table{
     width: 700px;
     height: 300px;
     border-radius: 20px;
+    font-size: 25px;
 }
 
-
+body{
+    background-color: rgb(245, 245, 245);
+}
 
 .top{
     border-top-left-radius: 18px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .top{
     border-top-right-radius: 18px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .bottom-left{
     border-bottom-left-radius: 18px;
@@ -91,9 +94,15 @@ iframe{
 }
 
 .nav ul li{
-    padding: 12px 18px;
+    padding: 15px 25px;
     cursor: pointer;
     position: relative;
+}
+
+.a1{
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 10px;
 }
 
 a:link{
@@ -106,6 +115,10 @@ a:visited{
     color: rgba(6,126,152,255);
 }
 
+.nav .a1:hover{
+    border-bottom: 3px rgba(6,126,152,255) solid;
+}
+
 .image{
     width: 100%;
     object-fit: cover;
@@ -114,26 +127,46 @@ a:visited{
 }
 
 .bgimg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45));
     z-index: 1;
+    color: white;
+    text-align: center;
 }
 
 .home{
     text-align: center;
     padding: 45px;
-    
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .home p{
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.bilete p{
+    font-size: 25px;
+}
+
+.plata p{
+    font-size: 25px;
+}
+
+.contact .map p{
+    font-size: 25px;
+}
+
+.form label{
+    font-size: 25px;
 }
 
  h1{
     color: rgb(113, 72, 149);
+    font-size: 50px;
 }
 
 hr{
-    width: 60%;
+    width: 70%;
     margin: auto;
     border: none;
     height: 3px;
@@ -142,7 +175,7 @@ hr{
 
 .box{
     background-color: rgb(238, 238, 238);
-    width: 250px;
+    width: 260px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -151,7 +184,7 @@ hr{
     border-radius: 15px;
     font-size: 17px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.159);
-    margin: 60px;
+    margin: 50px;
     font-weight: 600;
 }
 
@@ -163,7 +196,7 @@ hr{
 }
 
 span{
-    font-size: 22px;
+    font-size: 25px;
     color: rgb(113, 72, 149);
 }
 
@@ -178,11 +211,12 @@ span{
 }
 
 iframe{
-    padding-right: 60px;
+    margin-right: 60px;
+    border-radius: 30px;
 }
 
 .form{
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
     
@@ -193,11 +227,66 @@ input{
     height: 35px;
     border-radius: 20px;
     border: 3px rgb(198, 132, 255) solid;
-    background-color: rgba(209, 156, 255, 0.252);
+    background-color: rgba(209, 156, 255, 0.16);
     margin: 10px;
 }
 
 label{
     font-size: 19px;
-    margin: 10px;
+    margin: 117px;
+    font-weight: 600;
 }
+
+.label2{
+    font-size: 19px;
+    margin: 110px;
+}
+
+textarea{
+    width: 650px;
+    border-radius: 20px;
+    border: 3px rgb(198, 132, 255) solid;
+    background-color: rgba(209, 156, 255, 0.16);
+}
+
+.label3{
+    font-size: 19px;
+    margin: 70px;
+}
+
+footer {
+    background-color: rgb(113, 72, 149);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+  }
+
+  .harta button{
+    width: 320px;
+    height: 70px;
+    border-radius: 40px;
+    border: 4px white solid;
+    background-color: rgba(255, 255, 255, 0.156);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 100px;
+  }
+
+ .bgimg .centered .harta button:hover{
+    background-color: white;
+    border: white;
+    border-radius: 40px;
+    color: rgb(42, 42, 42);
+  }
