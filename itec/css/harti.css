@@ -59,11 +59,11 @@ button{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     transition-duration: 0.2s;
     height: 160px;
     border-radius: 20px;
-    margin-left: 70px;
+    
 }
 button:hover {
     background-color: rgb(209, 156, 255);
@@ -74,5 +74,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    position: relative;
+}
+
+.buton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 50px;
+    position: absolute;
+    top: 5px;
+}
+h1{
+    position: absolute;
+    top: 200px;
+    color: rgb(113, 72, 149);
+    font-size: 45px;
 }

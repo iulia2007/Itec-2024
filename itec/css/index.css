@@ -141,7 +141,7 @@ hr{
 }
 
 .box{
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(238, 238, 238);
     width: 250px;
     height: 200px;
     display: flex;
@@ -164,6 +164,7 @@ hr{
 
 span{
     font-size: 22px;
+    color: rgb(113, 72, 149);
 }
 
 .map p{
@@ -180,9 +181,23 @@ iframe{
     padding-right: 60px;
 }
 
-form{
-    display: flex;
+.form{
+    display: grid;
     align-items: center;
     justify-content: center;
     
+}
+
+input{
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    border: 3px rgb(198, 132, 255) solid;
+    background-color: rgba(209, 156, 255, 0.252);
+    margin: 10px;
+}
+
+label{
+    font-size: 19px;
+    margin: 10px;
 }
