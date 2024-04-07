@@ -17,6 +17,7 @@ td {
   text-align: center;
   font-size: 25px;
 }
+
 table {
   width: 700px;
   height: 300px;
@@ -31,38 +32,43 @@ body {
 .top {
   border-top-left-radius: 18px;
   font-size: 25px;
-}
-.top {
   border-top-right-radius: 18px;
-  font-size: 25px;
 }
+
 .bottom-left {
   border-bottom-left-radius: 18px;
 }
+
 .bottom-right {
   border-bottom-right-radius: 18px;
 }
+
 .table {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .bilete {
   align-items: center;
   justify-content: center;
   display: flex;
 }
+
 h1 {
   text-align: center;
 }
+
 th {
   background-color: rgb(209, 156, 255);
 }
+
 .map {
   margin-left: 30px;
   display: inline-flex;
   align-items: center;
 }
+
 iframe {
   margin-right: 50px;
 }
@@ -261,6 +267,7 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+  font-weight: 600;
 }
 
 .centered {
@@ -281,9 +288,10 @@ footer {
   border: 4px white solid;
   background-color: rgba(255, 255, 255, 0.156);
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
-  margin-top: 100px;
+  margin-top: 72px;
+  font-weight: 600;
 }
 
 .bgimg .centered .harta button:hover {
@@ -300,4 +308,7 @@ footer {
   background-color: rgb(113, 72, 149);
   color: white;
   font-weight: 700;
+  border-radius: 20px;
+  border: 3px rgb(198, 132, 255) solid;
+  margin: 10px;
 }
